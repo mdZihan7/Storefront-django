@@ -10,4 +10,6 @@ def say_hello(request) :
     # Transform
     # Send email
     # return HttpResponse('Hello world')
+    x=1
+    y=2
     return render(request, 'hello.html', {'name':'B'})
